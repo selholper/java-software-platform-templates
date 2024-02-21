@@ -25,11 +25,11 @@ public class TestHumanUtils {
             ),
 
             new Human(
-                    19,
-                    "Darya",
-                    "Zimina",
-                    LocalDate.of(2004, Month.AUGUST, 12),
-                    45
+                19,
+                "Darya",
+                "Zimina",
+                LocalDate.of(2004, Month.AUGUST, 12),
+                45
             ),
 
             new Human(
