@@ -2,6 +2,7 @@ package Practice2;
 
 import java.time.LocalDate;
 
+// Класс (запись) человека
 public record Human(
         int age,
         String firstName,
@@ -9,6 +10,8 @@ public record Human(
         LocalDate birthDate,
         int weight
 ) {
+
+    // Переопределяем метод для вывода объекта Human в консоль
     @Override
     public String toString() {
         return String.format(

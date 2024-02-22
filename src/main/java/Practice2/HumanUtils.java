@@ -8,9 +8,11 @@ import java.util.List;
 import java.util.Objects;
 import java.util.Iterator;
 
+// Приложение для работы с классом Human
 @UtilityClass
 public final class HumanUtils {
 
+    // Метод для создания списка из объектов класса Human
     public static List<Human> createHumanList(Human ... humans) {
         Objects.requireNonNull(humans);
 
@@ -20,6 +22,7 @@ public final class HumanUtils {
         return humanList;
     }
 
+    // Метод для применения изменений к списку объектов класса  Human
     public static void applyModificationsToHumanList(List<Human> humanList) {
         Objects.requireNonNull(humanList);
 
