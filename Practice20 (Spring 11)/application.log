@@ -1,0 +1,416 @@
+728  [main] INFO  c.e.p.Practice19Application
+                – Starting Practice19Application using Java 22 with PID 3552 (D:\Projects\Java\Practice19 (Spring 10)\target\classes started by selho in D:\Projects\Java\Practice19 (Spring 10))
+730  [main] INFO  c.e.p.Practice19Application
+                – No active profile set, falling back to 1 default profile: "default"
+1351 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1409 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 49 ms. Found 2 JPA repository interfaces.
+2026 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat initialized with port 8080 (http)
+2040 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Initializing ProtocolHandler ["http-nio-8080"]
+2042 [main] INFO  o.a.catalina.core.StandardService
+                – Starting service [Tomcat]
+2043 [main] INFO  o.a.catalina.core.StandardEngine
+                – Starting Servlet engine: [Apache Tomcat/10.1.19]
+2115 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring embedded WebApplicationContext
+2115 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                – Root WebApplicationContext: initialization completed in 1343 ms
+2296 [main] INFO  o.h.jpa.internal.util.LogHelper
+                – HHH000204: Processing PersistenceUnitInfo [name: default]
+2348 [main] INFO  org.hibernate.Version
+                – HHH000412: Hibernate ORM core version 6.4.4.Final
+2377 [main] INFO  o.h.c.i.RegionFactoryInitiator
+                – HHH000026: Second-level cache disabled
+2626 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo
+                – No LoadTimeWeaver setup: ignoring JPA class transformer
+2655 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Starting...
+2909 [main] INFO  com.zaxxer.hikari.pool.HikariPool
+                – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4ccdacf5
+2910 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Start completed.
+3938 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                – HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+4016 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Initialized JPA EntityManagerFactory for persistence unit 'default'
+4462 [main] INFO  o.s.d.j.r.q.QueryEnhancerFactory
+                – Hibernate is in classpath; If applicable, HQL parser will be used.
+4897 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+5289 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Starting ProtocolHandler ["http-nio-8080"]
+5313 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat started on port 8080 (http) with context path ''
+5323 [main] INFO  c.e.p.Practice19Application
+                – Started Practice19Application in 4.987 seconds (process running for 5.796)
+47839 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Closing JPA EntityManagerFactory for persistence unit 'default'
+47843 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Shutdown initiated...
+47849 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Shutdown completed.
+729  [main] INFO  c.e.p.Practice19Application
+                – Starting Practice19Application using Java 22 with PID 4440 (D:\Projects\Java\Practice19 (Spring 10)\target\classes started by selho in D:\Projects\Java\Practice19 (Spring 10))
+731  [main] INFO  c.e.p.Practice19Application
+                – No active profile set, falling back to 1 default profile: "default"
+1502 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1566 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 55 ms. Found 2 JPA repository interfaces.
+2141 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat initialized with port 8080 (http)
+2155 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Initializing ProtocolHandler ["http-nio-8080"]
+2157 [main] INFO  o.a.catalina.core.StandardService
+                – Starting service [Tomcat]
+2158 [main] INFO  o.a.catalina.core.StandardEngine
+                – Starting Servlet engine: [Apache Tomcat/10.1.19]
+2247 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring embedded WebApplicationContext
+2247 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                – Root WebApplicationContext: initialization completed in 1473 ms
+2455 [main] INFO  o.h.jpa.internal.util.LogHelper
+                – HHH000204: Processing PersistenceUnitInfo [name: default]
+2508 [main] INFO  org.hibernate.Version
+                – HHH000412: Hibernate ORM core version 6.4.4.Final
+2539 [main] INFO  o.h.c.i.RegionFactoryInitiator
+                – HHH000026: Second-level cache disabled
+2767 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo
+                – No LoadTimeWeaver setup: ignoring JPA class transformer
+2797 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Starting...
+3027 [main] INFO  com.zaxxer.hikari.pool.HikariPool
+                – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6335f04a
+3028 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Start completed.
+4124 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                – HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+4213 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Initialized JPA EntityManagerFactory for persistence unit 'default'
+4651 [main] INFO  o.s.d.j.r.q.QueryEnhancerFactory
+                – Hibernate is in classpath; If applicable, HQL parser will be used.
+5080 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+5457 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Starting ProtocolHandler ["http-nio-8080"]
+5478 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat started on port 8080 (http) with context path ''
+5486 [main] INFO  c.e.p.Practice19Application
+                – Started Practice19Application in 5.159 seconds (process running for 5.966)
+14693 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring DispatcherServlet 'dispatcherServlet'
+14693 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+                – Initializing Servlet 'dispatcherServlet'
+14693 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+                – Completed initialization in 0 ms
+14850 [http-nio-8080-exec-1] INFO  c.e.p.services.UniversityService
+                – Getting universities by name RTU MIREA
+22873 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Closing JPA EntityManagerFactory for persistence unit 'default'
+22875 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Shutdown initiated...
+22883 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Shutdown completed.
+858  [main] INFO  c.e.p.Practice20Application
+                – Starting Practice20Application using Java 22 with PID 3580 (D:\Projects\Java\Practice20 (Spring 11)\target\classes started by selho in D:\Projects\Java\Practice20 (Spring 11))
+862  [main] INFO  c.e.p.Practice20Application
+                – No active profile set, falling back to 1 default profile: "default"
+1575 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1648 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 59 ms. Found 2 JPA repository interfaces.
+2210 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat initialized with port 8080 (http)
+2224 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Initializing ProtocolHandler ["http-nio-8080"]
+2227 [main] INFO  o.a.catalina.core.StandardService
+                – Starting service [Tomcat]
+2227 [main] INFO  o.a.catalina.core.StandardEngine
+                – Starting Servlet engine: [Apache Tomcat/10.1.19]
+2326 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring embedded WebApplicationContext
+2327 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                – Root WebApplicationContext: initialization completed in 1414 ms
+2500 [main] INFO  o.h.jpa.internal.util.LogHelper
+                – HHH000204: Processing PersistenceUnitInfo [name: default]
+2558 [main] INFO  org.hibernate.Version
+                – HHH000412: Hibernate ORM core version 6.4.4.Final
+2589 [main] INFO  o.h.c.i.RegionFactoryInitiator
+                – HHH000026: Second-level cache disabled
+2826 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo
+                – No LoadTimeWeaver setup: ignoring JPA class transformer
+2850 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Starting...
+3054 [main] INFO  com.zaxxer.hikari.pool.HikariPool
+                – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3316527e
+3055 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Start completed.
+4025 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                – HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+4120 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Initialized JPA EntityManagerFactory for persistence unit 'default'
+4510 [main] INFO  o.s.d.j.r.q.QueryEnhancerFactory
+                – Hibernate is in classpath; If applicable, HQL parser will be used.
+4984 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+5384 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Starting ProtocolHandler ["http-nio-8080"]
+5408 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat started on port 8080 (http) with context path ''
+5420 [main] INFO  c.e.p.Practice20Application
+                – Started Practice20Application in 5.09 seconds (process running for 5.764)
+51886 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Closing JPA EntityManagerFactory for persistence unit 'default'
+51886 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Shutdown initiated...
+51902 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Shutdown completed.
+732  [main] INFO  c.e.p.Practice20Application
+                – Starting Practice20Application using Java 22 with PID 21372 (D:\Projects\Java\Practice20 (Spring 11)\target\classes started by selho in D:\Projects\Java\Practice20 (Spring 11))
+753  [main] INFO  c.e.p.Practice20Application
+                – No active profile set, falling back to 1 default profile: "default"
+1417 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1487 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 61 ms. Found 2 JPA repository interfaces.
+2247 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat initialized with port 8080 (http)
+2262 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Initializing ProtocolHandler ["http-nio-8080"]
+2265 [main] INFO  o.a.catalina.core.StandardService
+                – Starting service [Tomcat]
+2265 [main] INFO  o.a.catalina.core.StandardEngine
+                – Starting Servlet engine: [Apache Tomcat/10.1.19]
+2341 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring embedded WebApplicationContext
+2341 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                – Root WebApplicationContext: initialization completed in 1547 ms
+2529 [main] INFO  o.h.jpa.internal.util.LogHelper
+                – HHH000204: Processing PersistenceUnitInfo [name: default]
+2582 [main] INFO  org.hibernate.Version
+                – HHH000412: Hibernate ORM core version 6.4.4.Final
+2631 [main] INFO  o.h.c.i.RegionFactoryInitiator
+                – HHH000026: Second-level cache disabled
+2874 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo
+                – No LoadTimeWeaver setup: ignoring JPA class transformer
+2901 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Starting...
+3145 [main] INFO  com.zaxxer.hikari.pool.HikariPool
+                – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@56f9de3b
+3148 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Start completed.
+4209 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                – HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+4305 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Initialized JPA EntityManagerFactory for persistence unit 'default'
+4809 [main] INFO  o.s.d.j.r.q.QueryEnhancerFactory
+                – Hibernate is in classpath; If applicable, HQL parser will be used.
+5296 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+5728 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Starting ProtocolHandler ["http-nio-8080"]
+5745 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat started on port 8080 (http) with context path ''
+5752 [main] INFO  c.e.p.Practice20Application
+                – Started Practice20Application in 5.424 seconds (process running for 6.266)
+25337 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring DispatcherServlet 'dispatcherServlet'
+25337 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet
+                – Initializing Servlet 'dispatcherServlet'
+25339 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet
+                – Completed initialization in 2 ms
+25426 [http-nio-8080-exec-2] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Executing method: UniversityService.getUniversitiesByName(..)
+25428 [http-nio-8080-exec-2] INFO  c.e.p.services.UniversityService
+                – Getting universities by name RTU MIREA
+25568 [http-nio-8080-exec-2] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Method UniversityService.getUniversitiesByName(..) executed in 144 ms
+45904 [http-nio-8080-exec-1] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Executing method: UniversityService.getUniversitiesByName(..)
+45904 [http-nio-8080-exec-1] INFO  c.e.p.services.UniversityService
+                – Getting universities by name MSU
+45909 [http-nio-8080-exec-1] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Method UniversityService.getUniversitiesByName(..) executed in 5 ms
+56731 [http-nio-8080-exec-3] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Executing method: UniversityService.getUniversityById(..)
+56731 [http-nio-8080-exec-3] INFO  c.e.p.services.UniversityService
+                – Getting university by university_id 1
+56737 [http-nio-8080-exec-3] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Method UniversityService.getUniversityById(..) executed in 6 ms
+63507 [http-nio-8080-exec-4] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Executing method: UniversityService.getUniversityById(..)
+63507 [http-nio-8080-exec-4] INFO  c.e.p.services.UniversityService
+                – Getting university by university_id 2
+63510 [http-nio-8080-exec-4] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Method UniversityService.getUniversityById(..) executed in 3 ms
+92689 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Closing JPA EntityManagerFactory for persistence unit 'default'
+92691 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Shutdown initiated...
+92698 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Shutdown completed.
+732  [main] INFO  c.e.p.Practice20Application
+                – Starting Practice20Application using Java 22 with PID 16400 (D:\Projects\Java\Practice20 (Spring 11)\target\classes started by selho in D:\Projects\Java\Practice20 (Spring 11))
+734  [main] INFO  c.e.p.Practice20Application
+                – No active profile set, falling back to 1 default profile: "default"
+1434 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1504 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 60 ms. Found 2 JPA repository interfaces.
+2243 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat initialized with port 8080 (http)
+2259 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Initializing ProtocolHandler ["http-nio-8080"]
+2261 [main] INFO  o.a.catalina.core.StandardService
+                – Starting service [Tomcat]
+2262 [main] INFO  o.a.catalina.core.StandardEngine
+                – Starting Servlet engine: [Apache Tomcat/10.1.19]
+2344 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring embedded WebApplicationContext
+2345 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                – Root WebApplicationContext: initialization completed in 1568 ms
+2510 [main] INFO  o.h.jpa.internal.util.LogHelper
+                – HHH000204: Processing PersistenceUnitInfo [name: default]
+2570 [main] INFO  org.hibernate.Version
+                – HHH000412: Hibernate ORM core version 6.4.4.Final
+2605 [main] INFO  o.h.c.i.RegionFactoryInitiator
+                – HHH000026: Second-level cache disabled
+2885 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo
+                – No LoadTimeWeaver setup: ignoring JPA class transformer
+2909 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Starting...
+3142 [main] INFO  com.zaxxer.hikari.pool.HikariPool
+                – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@38ef1a0a
+3144 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Start completed.
+4208 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                – HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+4296 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Initialized JPA EntityManagerFactory for persistence unit 'default'
+4708 [main] INFO  o.s.d.j.r.q.QueryEnhancerFactory
+                – Hibernate is in classpath; If applicable, HQL parser will be used.
+5201 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+5669 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Starting ProtocolHandler ["http-nio-8080"]
+5692 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat started on port 8080 (http) with context path ''
+5703 [main] INFO  c.e.p.Practice20Application
+                – Started Practice20Application in 5.391 seconds (process running for 6.202)
+6537 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring DispatcherServlet 'dispatcherServlet'
+6537 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+                – Initializing Servlet 'dispatcherServlet'
+6538 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+                – Completed initialization in 1 ms
+6590 [http-nio-8080-exec-1] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Executing method: University com.example.practice20.services.UniversityService.getUniversityById(Long)
+6591 [http-nio-8080-exec-1] INFO  c.e.p.services.UniversityService
+                – Getting university by university_id 2
+6700 [http-nio-8080-exec-1] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Method University com.example.practice20.services.UniversityService.getUniversityById(Long) executed in 111 ms
+24787 [http-nio-8080-exec-2] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Executing method: University com.example.practice20.services.UniversityService.getUniversityById(Long)
+24787 [http-nio-8080-exec-2] INFO  c.e.p.services.UniversityService
+                – Getting university by university_id 1
+24791 [http-nio-8080-exec-2] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Method University com.example.practice20.services.UniversityService.getUniversityById(Long) executed in 4 ms
+37162 [http-nio-8080-exec-5] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Executing method: List com.example.practice20.services.UniversityService.getUniversitiesByName(String)
+37162 [http-nio-8080-exec-5] INFO  c.e.p.services.UniversityService
+                – Getting universities by name RTU MIREA
+37165 [http-nio-8080-exec-5] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Method List com.example.practice20.services.UniversityService.getUniversitiesByName(String) executed in 3 ms
+44627 [http-nio-8080-exec-4] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Executing method: List com.example.practice20.services.UniversityService.getUniversitiesByName(String)
+44627 [http-nio-8080-exec-4] INFO  c.e.p.services.UniversityService
+                – Getting universities by name ASLKDFJLKASJDFKLASJFKLJ
+44630 [http-nio-8080-exec-4] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Method List com.example.practice20.services.UniversityService.getUniversitiesByName(String) executed in 3 ms
+57351 [http-nio-8080-exec-3] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Executing method: List com.example.practice20.services.StudentService.getStudentsByUniversityId(Long)
+57351 [http-nio-8080-exec-3] INFO  c.e.p.services.StudentService
+                – Getting students by universityId 1
+57362 [http-nio-8080-exec-3] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Method List com.example.practice20.services.StudentService.getStudentsByUniversityId(Long) executed in 11 ms
+59264 [http-nio-8080-exec-7] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Executing method: List com.example.practice20.services.StudentService.getStudentsByUniversityId(Long)
+59264 [http-nio-8080-exec-7] INFO  c.e.p.services.StudentService
+                – Getting students by universityId 1
+59280 [http-nio-8080-exec-7] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Method List com.example.practice20.services.StudentService.getStudentsByUniversityId(Long) executed in 16 ms
+60995 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Closing JPA EntityManagerFactory for persistence unit 'default'
+60995 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Shutdown initiated...
+61011 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Shutdown completed.
+1121 [main] INFO  c.e.p.Practice20Application
+                – Starting Practice20Application using Java 22 with PID 19944 (D:\Projects\Java\Practice20 (Spring 11)\target\classes started by selho in D:\Projects\Java\Practice20 (Spring 11))
+1124 [main] INFO  c.e.p.Practice20Application
+                – No active profile set, falling back to 1 default profile: "default"
+2548 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2680 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 119 ms. Found 2 JPA repository interfaces.
+3910 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat initialized with port 8080 (http)
+3932 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Initializing ProtocolHandler ["http-nio-8080"]
+3936 [main] INFO  o.a.catalina.core.StandardService
+                – Starting service [Tomcat]
+3936 [main] INFO  o.a.catalina.core.StandardEngine
+                – Starting Servlet engine: [Apache Tomcat/10.1.19]
+4045 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring embedded WebApplicationContext
+4045 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                – Root WebApplicationContext: initialization completed in 2852 ms
+4262 [main] INFO  o.h.jpa.internal.util.LogHelper
+                – HHH000204: Processing PersistenceUnitInfo [name: default]
+4345 [main] INFO  org.hibernate.Version
+                – HHH000412: Hibernate ORM core version 6.4.4.Final
+4394 [main] INFO  o.h.c.i.RegionFactoryInitiator
+                – HHH000026: Second-level cache disabled
+4699 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo
+                – No LoadTimeWeaver setup: ignoring JPA class transformer
+4738 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Starting...
+5043 [main] INFO  com.zaxxer.hikari.pool.HikariPool
+                – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7d3c22a5
+5044 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Start completed.
+6645 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                – HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+6785 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Initialized JPA EntityManagerFactory for persistence unit 'default'
+7484 [main] INFO  o.s.d.j.r.q.QueryEnhancerFactory
+                – Hibernate is in classpath; If applicable, HQL parser will be used.
+8424 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+8943 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Starting ProtocolHandler ["http-nio-8080"]
+9015 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat started on port 8080 (http) with context path ''
+9031 [main] INFO  c.e.p.Practice20Application
+                – Started Practice20Application in 8.517 seconds (process running for 9.677)
+26364 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring DispatcherServlet 'dispatcherServlet'
+26365 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+                – Initializing Servlet 'dispatcherServlet'
+26369 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+                – Completed initialization in 3 ms
+26492 [http-nio-8080-exec-1] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Executing method: University com.example.practice20.services.UniversityService.getUniversityById(Long)
+26492 [http-nio-8080-exec-1] INFO  c.e.p.services.UniversityService
+                – Getting university by university_id 1
+26646 [http-nio-8080-exec-1] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Method University com.example.practice20.services.UniversityService.getUniversityById(Long) executed in 154 ms
+30386 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Closing JPA EntityManagerFactory for persistence unit 'default'
+30389 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Shutdown initiated...
+30402 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Shutdown completed.

@@ -1,0 +1,8 @@
+version: '3.1'
+
+services:
+  app:
+    image: 'sha256:5488b04f0d1582b03dbe69a39725c343c8f0783651f95f4443d511c7dfa90c91'
+    ports:
+      - '8080:8080'
+    container_name: 'Practice9'

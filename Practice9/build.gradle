@@ -1,0 +1,27 @@
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+task createJar(type: Jar) {
+    from sourceSets.main.output
+    archiveFileName = "application.jar"
+    destinationDirectory = file('docker')
+
+    manifest {
+        attributes 'Main-Class': 'application.Main'
+    }
+}
+
+task createDockerContainer(type: Exec) {
+    dependsOn 'createJar'
+    workingDir 'docker'
+    commandLine 'docker', 'build', '.'
+}
+
+task runDockerContainer(type: Exec) {
+    dependsOn 'createDockerContainer'
+    workingDir 'docker'
+    commandLine 'docker-compose', 'up'
+}

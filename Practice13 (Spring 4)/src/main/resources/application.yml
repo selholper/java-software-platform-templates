@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: "Practice13"
+program:
+  student:
+    name: Ivan
+    last_name: Ivanov
+    group: KMBO-12-22
