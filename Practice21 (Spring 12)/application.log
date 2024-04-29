@@ -1,0 +1,718 @@
+241  [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils
+                – Could not detect default configuration classes for test class [com.example.practice21.Practice21ApplicationTests]: Practice21ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+335  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+                – Found @SpringBootConfiguration com.example.practice21.Practice21Application for test class com.example.practice21.Practice21ApplicationTests
+684  [main] INFO  c.e.p.Practice21ApplicationTests
+                – Starting Practice21ApplicationTests using Java 22 with PID 12388 (started by selho in D:\Projects\java-software-platform-templates\Practice21 (Spring 12))
+685  [main] INFO  c.e.p.Practice21ApplicationTests
+                – No active profile set, falling back to 1 default profile: "default"
+1203 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1241 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 32 ms. Found 2 JPA repository interfaces.
+1672 [main] INFO  o.h.jpa.internal.util.LogHelper
+                – HHH000204: Processing PersistenceUnitInfo [name: default]
+1718 [main] INFO  org.hibernate.Version
+                – HHH000412: Hibernate ORM core version 6.4.4.Final
+1738 [main] INFO  o.h.c.i.RegionFactoryInitiator
+                – HHH000026: Second-level cache disabled
+1910 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo
+                – No LoadTimeWeaver setup: ignoring JPA class transformer
+1932 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Starting...
+2108 [main] INFO  com.zaxxer.hikari.pool.HikariPool
+                – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@261275ae
+2109 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Start completed.
+2847 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                – HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2888 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Initialized JPA EntityManagerFactory for persistence unit 'default'
+3418 [main] INFO  o.s.d.j.r.q.QueryEnhancerFactory
+                – Hibernate is in classpath; If applicable, HQL parser will be used.
+3859 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+4188 [main] INFO  c.e.p.Practice21ApplicationTests
+                – Started Practice21ApplicationTests in 3.741 seconds (process running for 4.565)
+4519 [main] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Executing method: void com.example.practice21.services.UniversityService.saveUniversity(University)
+4519 [main] INFO  c.e.p.services.UniversityService
+                – Saving university University(id=null, name=null, creationDate=null, students=null)
+4536 [main] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Executing method: void com.example.practice21.services.EmailService.sendEmail(String,String,String)
+4547 [main] INFO  c.e.p.services.EmailService
+                – Sending email to opozimivan@gmail.com
+5839 [main] INFO  c.e.p.services.EmailService
+                – Email successfully sent to opozimivan@gmail.com
+5839 [main] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Method void com.example.practice21.services.EmailService.sendEmail(String,String,String) executed in 1303 ms
+5839 [main] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Method void com.example.practice21.services.UniversityService.saveUniversity(University) executed in 1303 ms
+5858 [main] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Executing method: void com.example.practice21.services.StudentService.saveStudent(Student)
+5858 [main] INFO  c.e.p.services.StudentService
+                – Saving student Student(id=null, firstName=null, lastName=null, middleName=null, university=null)
+5861 [main] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Executing method: void com.example.practice21.services.EmailService.sendEmail(String,String,String)
+5861 [main] INFO  c.e.p.services.EmailService
+                – Sending email to opozimivan@gmail.com
+6912 [main] INFO  c.e.p.services.EmailService
+                – Email successfully sent to opozimivan@gmail.com
+6913 [main] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Method void com.example.practice21.services.EmailService.sendEmail(String,String,String) executed in 1052 ms
+6913 [main] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Method void com.example.practice21.services.StudentService.saveStudent(Student) executed in 1052 ms
+6920 [main] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Executing method: void com.example.practice21.services.UniversityService.deleteUniversitiesByName(String)
+6920 [main] INFO  c.e.p.services.UniversityService
+                – Deleting university by name null
+6984 [main] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Method void com.example.practice21.services.UniversityService.deleteUniversitiesByName(String) executed in 64 ms
+6989 [main] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Executing method: void com.example.practice21.services.StudentService.deleteStudentsByFirstName(String)
+6989 [main] INFO  c.e.p.services.StudentService
+                – Deleting student by firstName null
+6991 [main] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Method void com.example.practice21.services.StudentService.deleteStudentsByFirstName(String) executed in 2 ms
+7003 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Closing JPA EntityManagerFactory for persistence unit 'default'
+7004 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Shutdown initiated...
+7008 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Shutdown completed.
+381  [main] INFO  c.e.p.Practice21Application
+                – Starting Practice21Application using Java 22 with PID 33412 (D:\Projects\java-software-platform-templates\Practice21 (Spring 12)\target\classes started by selho in D:\Projects\java-software-platform-templates\Practice21 (Spring 12))
+382  [main] INFO  c.e.p.Practice21Application
+                – No active profile set, falling back to 1 default profile: "default"
+724  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+754  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 26 ms. Found 2 JPA repository interfaces.
+1096 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat initialized with port 8080 (http)
+1103 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Initializing ProtocolHandler ["http-nio-8080"]
+1104 [main] INFO  o.a.catalina.core.StandardService
+                – Starting service [Tomcat]
+1104 [main] INFO  o.a.catalina.core.StandardEngine
+                – Starting Servlet engine: [Apache Tomcat/10.1.19]
+1141 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring embedded WebApplicationContext
+1142 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                – Root WebApplicationContext: initialization completed in 735 ms
+1227 [main] INFO  o.h.jpa.internal.util.LogHelper
+                – HHH000204: Processing PersistenceUnitInfo [name: default]
+1252 [main] INFO  org.hibernate.Version
+                – HHH000412: Hibernate ORM core version 6.4.4.Final
+1270 [main] INFO  o.h.c.i.RegionFactoryInitiator
+                – HHH000026: Second-level cache disabled
+1415 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo
+                – No LoadTimeWeaver setup: ignoring JPA class transformer
+1428 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Starting...
+1528 [main] INFO  com.zaxxer.hikari.pool.HikariPool
+                – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5f7cd50e
+1529 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Start completed.
+2070 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                – HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2109 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Initialized JPA EntityManagerFactory for persistence unit 'default'
+2116 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext
+                – Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'emailConfig': Injection of autowired dependencies failed
+2116 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Closing JPA EntityManagerFactory for persistence unit 'default'
+2118 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Shutdown initiated...
+2120 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Shutdown completed.
+2123 [main] INFO  o.a.catalina.core.StandardService
+                – Stopping service [Tomcat]
+2129 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger
+                – 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2142 [main] ERROR o.s.boot.SpringApplication
+                – Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'emailConfig': Injection of autowired dependencies failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:514)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1419)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:962)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.example.practice21.Practice21Application.main(Practice21Application.java:10)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'USER_EMAIL' in value "${USER_EMAIL}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveNestedPlaceholders(AbstractPropertyResolver.java:230)
+	at org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertyResolver.getProperty(ConfigurationPropertySourcesPropertyResolver.java:80)
+	at org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertyResolver.getProperty(ConfigurationPropertySourcesPropertyResolver.java:61)
+	at org.springframework.core.env.AbstractEnvironment.getProperty(AbstractEnvironment.java:552)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer$1.getProperty(PropertySourcesPlaceholderConfigurer.java:153)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer$1.getProperty(PropertySourcesPlaceholderConfigurer.java:149)
+	at org.springframework.core.env.PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:85)
+	at org.springframework.core.env.PropertySourcesPropertyResolver.getPropertyAsRawString(PropertySourcesPropertyResolver.java:74)
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:153)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:200)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:922)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1374)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:784)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:767)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:508)
+	... 17 common frames omitted
+377  [main] INFO  c.e.p.Practice21Application
+                – Starting Practice21Application using Java 22 with PID 10184 (D:\Projects\java-software-platform-templates\Practice21 (Spring 12)\target\classes started by selho in D:\Projects\java-software-platform-templates\Practice21 (Spring 12))
+378  [main] INFO  c.e.p.Practice21Application
+                – The following 1 profile is active: "USER_EMAIL=opozimivan@gmail.com;USER_PASSWORD=puii rdcm qxsn lvui"
+708  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+736  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 24 ms. Found 2 JPA repository interfaces.
+1073 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat initialized with port 8080 (http)
+1079 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Initializing ProtocolHandler ["http-nio-8080"]
+1080 [main] INFO  o.a.catalina.core.StandardService
+                – Starting service [Tomcat]
+1080 [main] INFO  o.a.catalina.core.StandardEngine
+                – Starting Servlet engine: [Apache Tomcat/10.1.19]
+1115 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring embedded WebApplicationContext
+1115 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                – Root WebApplicationContext: initialization completed in 714 ms
+1197 [main] INFO  o.h.jpa.internal.util.LogHelper
+                – HHH000204: Processing PersistenceUnitInfo [name: default]
+1221 [main] INFO  org.hibernate.Version
+                – HHH000412: Hibernate ORM core version 6.4.4.Final
+1236 [main] INFO  o.h.c.i.RegionFactoryInitiator
+                – HHH000026: Second-level cache disabled
+1376 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo
+                – No LoadTimeWeaver setup: ignoring JPA class transformer
+1392 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Starting...
+1487 [main] INFO  com.zaxxer.hikari.pool.HikariPool
+                – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@78bad03b
+1488 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Start completed.
+2070 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                – HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2119 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Initialized JPA EntityManagerFactory for persistence unit 'default'
+2126 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext
+                – Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'emailConfig': Injection of autowired dependencies failed
+2126 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Closing JPA EntityManagerFactory for persistence unit 'default'
+2128 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Shutdown initiated...
+2132 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Shutdown completed.
+2133 [main] INFO  o.a.catalina.core.StandardService
+                – Stopping service [Tomcat]
+2139 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger
+                – 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2151 [main] ERROR o.s.boot.SpringApplication
+                – Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'emailConfig': Injection of autowired dependencies failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:514)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1419)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:962)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.example.practice21.Practice21Application.main(Practice21Application.java:10)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'USER_EMAIL' in value "${USER_EMAIL}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveNestedPlaceholders(AbstractPropertyResolver.java:230)
+	at org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertyResolver.getProperty(ConfigurationPropertySourcesPropertyResolver.java:80)
+	at org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertyResolver.getProperty(ConfigurationPropertySourcesPropertyResolver.java:61)
+	at org.springframework.core.env.AbstractEnvironment.getProperty(AbstractEnvironment.java:552)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer$1.getProperty(PropertySourcesPlaceholderConfigurer.java:153)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer$1.getProperty(PropertySourcesPlaceholderConfigurer.java:149)
+	at org.springframework.core.env.PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:85)
+	at org.springframework.core.env.PropertySourcesPropertyResolver.getPropertyAsRawString(PropertySourcesPropertyResolver.java:74)
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:153)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:200)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:922)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1374)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:784)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:767)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:508)
+	... 17 common frames omitted
+359  [main] INFO  c.e.p.Practice21Application
+                – Starting Practice21Application using Java 22 with PID 18240 (D:\Projects\java-software-platform-templates\Practice21 (Spring 12)\target\classes started by selho in D:\Projects\java-software-platform-templates\Practice21 (Spring 12))
+360  [main] INFO  c.e.p.Practice21Application
+                – The following 1 profile is active: "USER_EMAIL=opozimivan@gmail.com;USER_PASSWORD=puii rdcm qxsn lvui"
+667  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+695  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 24 ms. Found 2 JPA repository interfaces.
+1033 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat initialized with port 8080 (http)
+1039 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Initializing ProtocolHandler ["http-nio-8080"]
+1040 [main] INFO  o.a.catalina.core.StandardService
+                – Starting service [Tomcat]
+1040 [main] INFO  o.a.catalina.core.StandardEngine
+                – Starting Servlet engine: [Apache Tomcat/10.1.19]
+1069 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring embedded WebApplicationContext
+1070 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                – Root WebApplicationContext: initialization completed in 688 ms
+1147 [main] INFO  o.h.jpa.internal.util.LogHelper
+                – HHH000204: Processing PersistenceUnitInfo [name: default]
+1177 [main] INFO  org.hibernate.Version
+                – HHH000412: Hibernate ORM core version 6.4.4.Final
+1193 [main] INFO  o.h.c.i.RegionFactoryInitiator
+                – HHH000026: Second-level cache disabled
+1325 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo
+                – No LoadTimeWeaver setup: ignoring JPA class transformer
+1342 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Starting...
+1444 [main] INFO  com.zaxxer.hikari.pool.HikariPool
+                – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1d8be7b9
+1445 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Start completed.
+1969 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                – HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2010 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Initialized JPA EntityManagerFactory for persistence unit 'default'
+2245 [main] INFO  o.s.d.j.r.q.QueryEnhancerFactory
+                – Hibernate is in classpath; If applicable, HQL parser will be used.
+2484 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2673 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Starting ProtocolHandler ["http-nio-8080"]
+2688 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat started on port 8080 (http) with context path ''
+2692 [main] INFO  c.e.p.Practice21Application
+                – Started Practice21Application in 2.525 seconds (process running for 2.933)
+8987 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring DispatcherServlet 'dispatcherServlet'
+8987 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+                – Initializing Servlet 'dispatcherServlet'
+8988 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+                – Completed initialization in 0 ms
+9023 [http-nio-8080-exec-1] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Executing method: University com.example.practice21.services.UniversityService.getUniversityById(Long)
+9024 [http-nio-8080-exec-1] INFO  c.e.p.services.UniversityService
+                – Getting university by university_id 1
+9090 [http-nio-8080-exec-1] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Method University com.example.practice21.services.UniversityService.getUniversityById(Long) executed in 67 ms
+10649 [http-nio-8080-exec-2] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Executing method: University com.example.practice21.services.UniversityService.getUniversityById(Long)
+10649 [http-nio-8080-exec-2] INFO  c.e.p.services.UniversityService
+                – Getting university by university_id 1
+10653 [http-nio-8080-exec-2] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Method University com.example.practice21.services.UniversityService.getUniversityById(Long) executed in 4 ms
+43014 [http-nio-8080-exec-3] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Executing method: List com.example.practice21.services.UniversityService.getUniversitiesByName(String)
+43014 [http-nio-8080-exec-3] INFO  c.e.p.services.UniversityService
+                – Getting universities by name RTU MIREA
+43016 [http-nio-8080-exec-3] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Method List com.example.practice21.services.UniversityService.getUniversitiesByName(String) executed in 2 ms
+48276 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Closing JPA EntityManagerFactory for persistence unit 'default'
+48277 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Shutdown initiated...
+48281 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Shutdown completed.
+1119 [main] INFO  c.e.p.Practice21Application
+                – Starting Practice21Application using Java 22 with PID 6996 (D:\Projects\java-software-platform-templates\Practice21 (Spring 12)\target\classes started by selho in D:\Projects\java-software-platform-templates\Practice21 (Spring 12))
+1119 [main] INFO  c.e.p.Practice21Application
+                – The following 1 profile is active: "USER_EMAIL=opozimivan@gmail.com;USER_PASSWORD=puii rdcm qxsn lvui"
+2219 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2297 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 61 ms. Found 2 JPA repository interfaces.
+3227 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat initialized with port 8080 (http)
+3242 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Initializing ProtocolHandler ["http-nio-8080"]
+3242 [main] INFO  o.a.catalina.core.StandardService
+                – Starting service [Tomcat]
+3242 [main] INFO  o.a.catalina.core.StandardEngine
+                – Starting Servlet engine: [Apache Tomcat/10.1.19]
+3321 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring embedded WebApplicationContext
+3321 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                – Root WebApplicationContext: initialization completed in 2146 ms
+3544 [main] INFO  o.h.jpa.internal.util.LogHelper
+                – HHH000204: Processing PersistenceUnitInfo [name: default]
+3623 [main] INFO  org.hibernate.Version
+                – HHH000412: Hibernate ORM core version 6.4.4.Final
+3670 [main] INFO  o.h.c.i.RegionFactoryInitiator
+                – HHH000026: Second-level cache disabled
+3985 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo
+                – No LoadTimeWeaver setup: ignoring JPA class transformer
+4016 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Starting...
+4237 [main] INFO  com.zaxxer.hikari.pool.HikariPool
+                – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@53b7bf01
+4252 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Start completed.
+5536 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                – HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+5631 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Initialized JPA EntityManagerFactory for persistence unit 'default'
+6213 [main] INFO  o.s.d.j.r.q.QueryEnhancerFactory
+                – Hibernate is in classpath; If applicable, HQL parser will be used.
+6826 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+7329 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Starting ProtocolHandler ["http-nio-8080"]
+7345 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat started on port 8080 (http) with context path ''
+7360 [main] INFO  c.e.p.Practice21Application
+                – Started Practice21Application in 6.793 seconds (process running for 13.019)
+18428 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Closing JPA EntityManagerFactory for persistence unit 'default'
+18439 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Shutdown initiated...
+18445 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Shutdown completed.
+769  [main] INFO  c.e.p.Practice21Application
+                – Starting Practice21Application using Java 22 with PID 22160 (D:\Projects\java-software-platform-templates\Practice21 (Spring 12)\target\classes started by selho in D:\Projects\java-software-platform-templates\Practice21 (Spring 12))
+772  [main] INFO  c.e.p.Practice21Application
+                – The following 1 profile is active: "USER_EMAIL=opozimivan@gmail.com;USER_PASSWORD=puii rdcm qxsn lvui"
+1581 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1669 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 79 ms. Found 2 JPA repository interfaces.
+2390 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat initialized with port 8080 (http)
+2413 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Initializing ProtocolHandler ["http-nio-8080"]
+2414 [main] INFO  o.a.catalina.core.StandardService
+                – Starting service [Tomcat]
+2415 [main] INFO  o.a.catalina.core.StandardEngine
+                – Starting Servlet engine: [Apache Tomcat/10.1.19]
+2491 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring embedded WebApplicationContext
+2491 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                – Root WebApplicationContext: initialization completed in 1662 ms
+2655 [main] INFO  o.h.jpa.internal.util.LogHelper
+                – HHH000204: Processing PersistenceUnitInfo [name: default]
+2714 [main] INFO  org.hibernate.Version
+                – HHH000412: Hibernate ORM core version 6.4.4.Final
+2742 [main] INFO  o.h.c.i.RegionFactoryInitiator
+                – HHH000026: Second-level cache disabled
+3021 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo
+                – No LoadTimeWeaver setup: ignoring JPA class transformer
+3046 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Starting...
+3271 [main] INFO  com.zaxxer.hikari.pool.HikariPool
+                – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@69a73867
+3274 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Start completed.
+4370 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                – HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+4467 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Initialized JPA EntityManagerFactory for persistence unit 'default'
+4994 [main] INFO  o.s.d.j.r.q.QueryEnhancerFactory
+                – Hibernate is in classpath; If applicable, HQL parser will be used.
+5469 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+5944 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat started on port 8080 (http) with context path ''
+5953 [main] INFO  c.e.p.Practice21Application
+                – Started Practice21Application in 5.617 seconds (process running for 6.454)
+5963 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Closing JPA EntityManagerFactory for persistence unit 'default'
+5966 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Shutdown initiated...
+5971 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Shutdown completed.
+430  [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils
+                – Could not detect default configuration classes for test class [com.example.practice21.Practice21ApplicationTests]: Practice21ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+572  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+                – Found @SpringBootConfiguration com.example.practice21.Practice21Application for test class com.example.practice21.Practice21ApplicationTests
+1282 [main] INFO  c.e.p.Practice21ApplicationTests
+                – Starting Practice21ApplicationTests using Java 22 with PID 28368 (started by selho in D:\Projects\java-software-platform-templates\Practice21 (Spring 12))
+1282 [main] INFO  c.e.p.Practice21ApplicationTests
+                – No active profile set, falling back to 1 default profile: "default"
+2305 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2368 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 54 ms. Found 2 JPA repository interfaces.
+3014 [main] INFO  o.h.jpa.internal.util.LogHelper
+                – HHH000204: Processing PersistenceUnitInfo [name: default]
+3109 [main] INFO  org.hibernate.Version
+                – HHH000412: Hibernate ORM core version 6.4.4.Final
+3156 [main] INFO  o.h.c.i.RegionFactoryInitiator
+                – HHH000026: Second-level cache disabled
+3486 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo
+                – No LoadTimeWeaver setup: ignoring JPA class transformer
+3517 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Starting...
+3819 [main] INFO  com.zaxxer.hikari.pool.HikariPool
+                – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@601f264d
+3821 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Start completed.
+5002 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                – HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+5097 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Initialized JPA EntityManagerFactory for persistence unit 'default'
+6024 [main] INFO  o.s.d.j.r.q.QueryEnhancerFactory
+                – Hibernate is in classpath; If applicable, HQL parser will be used.
+6857 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+7441 [main] INFO  c.e.p.Practice21ApplicationTests
+                – Started Practice21ApplicationTests in 6.633 seconds (process running for 8.213)
+8063 [main] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Executing method: void com.example.practice21.services.UniversityService.saveUniversity(University)
+8063 [main] INFO  c.e.p.services.UniversityService
+                – Saving university University(id=null, name=null, creationDate=null, students=null)
+8110 [main] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Executing method: void com.example.practice21.services.EmailService.sendEmail(String,String,String)
+8110 [main] INFO  c.e.p.services.EmailService
+                – Sending email to opozimivan@gmail.com
+10228 [main] INFO  c.e.p.services.EmailService
+                – Email successfully sent to opozimivan@gmail.com
+10228 [main] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Method void com.example.practice21.services.EmailService.sendEmail(String,String,String) executed in 2118 ms
+10228 [main] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Method void com.example.practice21.services.UniversityService.saveUniversity(University) executed in 2118 ms
+10259 [main] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Executing method: void com.example.practice21.services.StudentService.saveStudent(Student)
+10259 [main] INFO  c.e.p.services.StudentService
+                – Saving student Student(id=null, firstName=null, lastName=null, middleName=null, university=null)
+10274 [main] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Executing method: void com.example.practice21.services.EmailService.sendEmail(String,String,String)
+10274 [main] INFO  c.e.p.services.EmailService
+                – Sending email to opozimivan@gmail.com
+11633 [main] INFO  c.e.p.services.EmailService
+                – Email successfully sent to opozimivan@gmail.com
+11633 [main] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Method void com.example.practice21.services.EmailService.sendEmail(String,String,String) executed in 1359 ms
+11633 [main] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Method void com.example.practice21.services.StudentService.saveStudent(Student) executed in 1359 ms
+11659 [main] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Executing method: void com.example.practice21.services.UniversityService.deleteUniversitiesByName(String)
+11659 [main] INFO  c.e.p.services.UniversityService
+                – Deleting university by name null
+11792 [main] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Method void com.example.practice21.services.UniversityService.deleteUniversitiesByName(String) executed in 133 ms
+11808 [main] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Executing method: void com.example.practice21.services.StudentService.deleteStudentsByFirstName(String)
+11808 [main] INFO  c.e.p.services.StudentService
+                – Deleting student by firstName null
+11808 [main] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Method void com.example.practice21.services.StudentService.deleteStudentsByFirstName(String) executed in 0 ms
+11839 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Closing JPA EntityManagerFactory for persistence unit 'default'
+11839 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Shutdown initiated...
+11854 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Shutdown completed.
+406  [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils
+                – Could not detect default configuration classes for test class [com.example.practice21.Practice21ApplicationTests]: Practice21ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+553  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+                – Found @SpringBootConfiguration com.example.practice21.Practice21Application for test class com.example.practice21.Practice21ApplicationTests
+1279 [main] INFO  c.e.p.Practice21ApplicationTests
+                – Starting Practice21ApplicationTests using Java 22 with PID 28024 (started by selho in D:\Projects\java-software-platform-templates\Practice21 (Spring 12))
+1279 [main] INFO  c.e.p.Practice21ApplicationTests
+                – No active profile set, falling back to 1 default profile: "default"
+2285 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2351 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 59 ms. Found 2 JPA repository interfaces.
+3116 [main] INFO  o.h.jpa.internal.util.LogHelper
+                – HHH000204: Processing PersistenceUnitInfo [name: default]
+3206 [main] INFO  org.hibernate.Version
+                – HHH000412: Hibernate ORM core version 6.4.4.Final
+3242 [main] INFO  o.h.c.i.RegionFactoryInitiator
+                – HHH000026: Second-level cache disabled
+3588 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo
+                – No LoadTimeWeaver setup: ignoring JPA class transformer
+3619 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Starting...
+3950 [main] INFO  com.zaxxer.hikari.pool.HikariPool
+                – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1f71e024
+3950 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Start completed.
+5184 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                – HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+5277 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Initialized JPA EntityManagerFactory for persistence unit 'default'
+6186 [main] INFO  o.s.d.j.r.q.QueryEnhancerFactory
+                – Hibernate is in classpath; If applicable, HQL parser will be used.
+6956 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+7550 [main] INFO  c.e.p.Practice21ApplicationTests
+                – Started Practice21ApplicationTests in 6.786 seconds (process running for 8.294)
+8241 [main] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Executing method: void com.example.practice21.services.UniversityService.saveUniversity(University)
+8241 [main] INFO  c.e.p.services.UniversityService
+                – Saving university University(id=null, name=null, creationDate=null, students=null)
+8272 [main] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Executing method: void com.example.practice21.services.EmailService.sendEmail(String,String,String)
+8272 [main] INFO  c.e.p.services.EmailService
+                – Sending email to opozimivan@gmail.com
+10049 [main] INFO  c.e.p.services.EmailService
+                – Email successfully sent to opozimivan@gmail.com
+10049 [main] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Method void com.example.practice21.services.EmailService.sendEmail(String,String,String) executed in 1777 ms
+10049 [main] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Method void com.example.practice21.services.UniversityService.saveUniversity(University) executed in 1777 ms
+10102 [main] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Executing method: void com.example.practice21.services.StudentService.saveStudent(Student)
+10102 [main] INFO  c.e.p.services.StudentService
+                – Saving student Student(id=null, firstName=null, lastName=null, middleName=null, university=null)
+10112 [main] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Executing method: void com.example.practice21.services.EmailService.sendEmail(String,String,String)
+10112 [main] INFO  c.e.p.services.EmailService
+                – Sending email to opozimivan@gmail.com
+11477 [main] INFO  c.e.p.services.EmailService
+                – Email successfully sent to opozimivan@gmail.com
+11477 [main] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Method void com.example.practice21.services.EmailService.sendEmail(String,String,String) executed in 1365 ms
+11477 [main] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Method void com.example.practice21.services.StudentService.saveStudent(Student) executed in 1365 ms
+11511 [main] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Executing method: void com.example.practice21.services.UniversityService.deleteUniversitiesByName(String)
+11511 [main] INFO  c.e.p.services.UniversityService
+                – Deleting university by name null
+11650 [main] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Method void com.example.practice21.services.UniversityService.deleteUniversitiesByName(String) executed in 139 ms
+11665 [main] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Executing method: void com.example.practice21.services.StudentService.deleteStudentsByFirstName(String)
+11665 [main] INFO  c.e.p.services.StudentService
+                – Deleting student by firstName null
+11665 [main] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Method void com.example.practice21.services.StudentService.deleteStudentsByFirstName(String) executed in 0 ms
+11696 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Closing JPA EntityManagerFactory for persistence unit 'default'
+11696 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Shutdown initiated...
+11712 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Shutdown completed.
+805  [main] INFO  c.e.p.Practice21Application
+                – Starting Practice21Application using Java 22 with PID 18844 (D:\Projects\java-software-platform-templates\Practice21 (Spring 12)\target\classes started by selho in D:\Projects\java-software-platform-templates\Practice21 (Spring 12))
+805  [main] INFO  c.e.p.Practice21Application
+                – The following 1 profile is active: "USER_EMAIL=opozimivan@gmail.com;USER_PASSWORD=puii rdcm qxsn lvui"
+1786 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1856 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 59 ms. Found 2 JPA repository interfaces.
+2665 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat initialized with port 8080 (http)
+2685 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Initializing ProtocolHandler ["http-nio-8080"]
+2687 [main] INFO  o.a.catalina.core.StandardService
+                – Starting service [Tomcat]
+2687 [main] INFO  o.a.catalina.core.StandardEngine
+                – Starting Servlet engine: [Apache Tomcat/10.1.19]
+2784 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring embedded WebApplicationContext
+2786 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                – Root WebApplicationContext: initialization completed in 1930 ms
+3089 [main] INFO  o.h.jpa.internal.util.LogHelper
+                – HHH000204: Processing PersistenceUnitInfo [name: default]
+3146 [main] INFO  org.hibernate.Version
+                – HHH000412: Hibernate ORM core version 6.4.4.Final
+3187 [main] INFO  o.h.c.i.RegionFactoryInitiator
+                – HHH000026: Second-level cache disabled
+3538 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo
+                – No LoadTimeWeaver setup: ignoring JPA class transformer
+3568 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Starting...
+3801 [main] INFO  com.zaxxer.hikari.pool.HikariPool
+                – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6c70b7c3
+3804 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Start completed.
+5104 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                – HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+5209 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Initialized JPA EntityManagerFactory for persistence unit 'default'
+5881 [main] INFO  o.s.d.j.r.q.QueryEnhancerFactory
+                – Hibernate is in classpath; If applicable, HQL parser will be used.
+6394 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+6991 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Starting ProtocolHandler ["http-nio-8080"]
+7010 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat started on port 8080 (http) with context path ''
+7019 [main] INFO  c.e.p.Practice21Application
+                – Started Practice21Application in 6.644 seconds (process running for 7.67)
+85586 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring DispatcherServlet 'dispatcherServlet'
+85586 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet
+                – Initializing Servlet 'dispatcherServlet'
+85586 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet
+                – Completed initialization in 0 ms
+104670 [http-nio-8080-exec-6] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Executing method: List com.example.practice21.services.StudentService.getStudentsByFirstName(String)
+104670 [http-nio-8080-exec-6] INFO  c.e.p.services.StudentService
+                – Getting student by firstName Ivan
+104849 [http-nio-8080-exec-6] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Method List com.example.practice21.services.StudentService.getStudentsByFirstName(String) executed in 184 ms
+113745 [http-nio-8080-exec-7] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Executing method: List com.example.practice21.services.StudentService.getStudentsByFirstName(String)
+113745 [http-nio-8080-exec-7] INFO  c.e.p.services.StudentService
+                – Getting student by firstName Ivan
+113751 [http-nio-8080-exec-7] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Method List com.example.practice21.services.StudentService.getStudentsByFirstName(String) executed in 6 ms
+293181 [http-nio-8080-exec-1] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Executing method: List com.example.practice21.services.StudentService.getStudentsByFirstName(String)
+293181 [http-nio-8080-exec-1] INFO  c.e.p.services.StudentService
+                – Getting student by firstName Ivan
+293181 [http-nio-8080-exec-1] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Method List com.example.practice21.services.StudentService.getStudentsByFirstName(String) executed in 0 ms
+320333 [http-nio-8080-exec-2] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Executing method: List com.example.practice21.services.StudentService.getStudentsByFirstName(String)
+320333 [http-nio-8080-exec-2] INFO  c.e.p.services.StudentService
+                – Getting student by firstName Ivan
+320333 [http-nio-8080-exec-2] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Method List com.example.practice21.services.StudentService.getStudentsByFirstName(String) executed in 0 ms
+473759 [http-nio-8080-exec-5] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Executing method: List com.example.practice21.services.StudentService.getStudentsByFirstName(String)
+473759 [http-nio-8080-exec-5] INFO  c.e.p.services.StudentService
+                – Getting student by firstName Ivan
+473775 [http-nio-8080-exec-5] INFO  c.e.p.a.ServiceExecutionTimeAspect
+                – Method List com.example.practice21.services.StudentService.getStudentsByFirstName(String) executed in 16 ms
+1205674 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Closing JPA EntityManagerFactory for persistence unit 'default'
+1205674 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Shutdown initiated...
+1205691 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Shutdown completed.

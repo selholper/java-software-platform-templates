@@ -1,0 +1,1 @@
+University(id=1, name=RTU MIREA, creationDate=1947-05-28, students=[Student(id=1, firstName=Ivan, lastName=Ivanovich, middleName=Ivanov, university="RTU MIREA"), Student(id=3, firstName=Semyon, lastName=Semyonovich, middleName=Semyenov, university="RTU MIREA")])
